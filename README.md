@@ -1,7 +1,3 @@
-Here's a simple **README** file for your Node.js CRUD backend:
-
----
-
 # Node.js CRUD App Backend
 
 This is a simple CRUD backend application built using **Node.js**, **Express**, and **MongoDB**. It provides RESTful API endpoints for performing basic CRUD operations on data stored in a MongoDB database.
@@ -63,34 +59,3 @@ Ensure you have the following installed on your machine:
 
    The backend will run on `http://localhost:5000`.
 
-## API Endpoints
-
-### 1. Create a new record
-
-- **POST** `/api/resource`
-- Example request body:
-
-  ```json
-  {
-    "name": "Item Name",
-    "description": "Item Description"
-  }
-  ```
-
-### 2. Get all records
-
-- **GET** `/api/resource`
-
-### 3. Get a specific record by ID
-
-- **GET** `/api/resource/:id`
-
-### 4. Update a record by ID
-
-- **PUT** `/api/resource/:id`
-- Example request body:
-
-  ```json
-  {
-    "name": "Updated Name",
-    "description": "Updated
